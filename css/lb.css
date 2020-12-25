@@ -1,0 +1,36 @@
+nav .w li {
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 30px;
+}
+
+nav .w li:nth-child(-n+3) {
+    font-size: 16px;
+}
+
+nav .w ul .last a::after {
+    content: "\e91e";
+    font-family: "icomoon";
+}
+
+.sk_container .sk_bd li {
+    float: left;
+    margin: 10px 4px;
+    border: 1px solid transparent;
+}
+
+.sk_container li:hover {
+    border: 1px solid #b11919;
+}
+
+header {
+    position: relative;
+}
+
+header .ms {
+    display: block;
+    position: absolute;
+    top: 54px;
+    left: 183px;
+}

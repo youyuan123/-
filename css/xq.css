@@ -1,0 +1,339 @@
+.de_container {
+    padding-top: 20px;
+}
+
+.de_container .crumb_wrap {
+    height: 30px;
+    line-height: 30px;
+}
+
+.de_container .crumb_wrap a {
+    padding: 0 5px;
+}
+
+.de_container .crumb_wrap span {
+    width: 10px;
+    height: 10px;
+    font-family: "icomoon";
+}
+
+.product_intro {
+    height: 600px;
+}
+
+.product_intro .productfl .one img {
+    width: 100%;
+}
+
+.product_intro .productfl {
+    margin-top: 5px;
+    float: left;
+    width: 398px;
+    height: 550px;
+}
+
+.product_intro .one {
+    border: 1px solid #ccc;
+}
+
+.product_intro .one img:hover {
+    cursor: move;
+}
+
+.product_intro .two ul {
+    margin-left: 12px;
+}
+
+.product_intro .two li {
+    width: 50px;
+    height: 56px;
+    float: left;
+    margin: 50px 2px;
+    cursor: pointer;
+}
+
+.product_intro .two li:first-child {
+    line-height: 60px;
+    font-family: "icomoon";
+    font-size: 55px;
+}
+
+.product_intro .two li:last-child {
+    line-height: 60px;
+    font-family: "icomoon";
+    font-size: 55px;
+    text-align: center;
+}
+
+.productfr {
+    float: right;
+}
+
+.productfr h2 {
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.productfr h5 {
+    color: #e12228;
+    font-weight: normal;
+}
+
+.productfr .jgb {
+    position: relative;
+    width: 718px;
+    height: 113px;
+    background-color: #fee9eb;
+}
+
+.productfr .jgb dl {
+    display: inline-block;
+    padding: 6px 10px;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.productfr .jgb dl dt {
+    letter-spacing: 20px;
+    float: left;
+}
+
+.productfr .jgb dl dd {
+    float: left;
+}
+
+.productfr .jgb dl dd i {
+    position: absolute;
+    top: 2px;
+    left: 70px;
+    font-size: 20px;
+    color: #e12228;
+}
+
+.productfr .jgb dd .jj {
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    font-size: 12px;
+    color: #e12228
+}
+
+.productfr .jgb dl .pj {
+    position: absolute;
+    top: 10px;
+    left: 600px;
+    font-size: 12px;
+}
+
+.productfr .jgb dl b {
+    font-weight: normal;
+    display: inline-block;
+    color: #fff;
+    background-color: #e12228;
+}
+
+.productfr .jgb .cx dd {
+    margin-bottom: 20px;
+}
+
+.productfr .jgb .cx .last {
+    margin-left: 65px;
+}
+
+.productfr .jgb .ys dd {
+    background-color: #f7f7f7;
+    color: #000;
+    text-align: center;
+    line-height: 42px;
+    margin-left: 10px;
+}
+
+.productfr .jgb .ys a {
+    color: #000;
+    border: 1px solid #ededed;
+    display: block;
+    width: 80px;
+    height: 42px;
+}
+
+.productfr .jgb .ys dt {
+    padding-top: 12px;
+}
+
+.productfr .gwc {
+    position: absolute;
+    bottom: -360px;
+    left: 0;
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    color: #fff;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+}
+
+.productfr .gwc:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.productfr .sl {
+    position: absolute;
+    bottom: -360px;
+    left: 160px;
+    width: 46px;
+    height: 46px;
+}
+
+.productfr .sl input {
+    float: left;
+    width: 23px;
+    height: 46px;
+    background: none;
+    outline: none;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.productfr .sl .slr {
+    float: left;
+    width: 23px;
+    height: 46px;
+}
+
+.productfr .t {
+    float: left;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-left: none;
+    text-align: center;
+}
+
+.productfr .t a {
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.productfr .b {
+    float: left;
+    width: 23px;
+    height: 23px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    cursor: not-allowed;
+    text-align: center;
+}
+
+.tab_list {
+    width: 979px;
+    margin-left: 221px;
+}
+
+.tab_list .top {
+    height: 41px;
+    width: 979px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+.tab_list .top a {
+    float: left;
+    display: block;
+    height: 41px;
+    text-align: center;
+    line-height: 41px;
+    padding: 0 20px;
+}
+
+.tab_list .top a:first-child {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.tab_list .item {
+    position: relative;
+    width: 979px;
+}
+
+.tab_list .item_info {
+    padding: 25px 0 0 30px;
+}
+
+.tab_list .item_info li {
+    line-height: 20px;
+}
+
+.tab_list .item_info h4 {
+    float: right;
+}
+
+.tab_list .item_info .tp li {
+    float: left;
+}
+
+.asidefl {
+    width: 208px;
+    position: absolute;
+    top: -40px;
+    left: -445px;
+}
+
+.asidefl .tab_list {
+    height: 34px;
+    width: 208px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.asidefl .tab_list .tl {
+    float: left;
+    color: #c81623;
+    width: 104px;
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
+
+.asidefl .tab_list .tr {
+    float: left;
+    width: 104px;
+    border: 1px solid #dddddd;
+}
+
+.asidefl .tab_con {
+    position: absolute;
+    top: 36px;
+    left: 221px;
+    width: 208px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.asidefl .tab_con li {
+    height: 240px;
+    width: 180px;
+    margin-left: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+.asidefl .tab_con h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+
+.asidefl .tab_con a {
+    display: block;
+    width: 90px;
+    height: 30px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px auto;
+}

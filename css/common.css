@@ -1,0 +1,308 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut .fl {
+    font-size: 12px;
+    color: #696969;
+    line-height: 31px;
+}
+
+.shortcut .fl li {
+    float: left;
+    margin-left: 6px;
+}
+
+.red {
+    color: #c1192b;
+}
+
+.shortcut .fr {
+    float: right;
+}
+
+.shortcut .fr li {
+    float: left;
+    line-height: 31px;
+}
+
+.shortcut .fr li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    background-color: #6b6b6b;
+    margin: 0 14px;
+    margin-top: 9px;
+}
+
+.shortcut .fr .icomoon::after {
+    content: "\e91e";
+    font-family: 'icomoon';
+    margin-left: 6px;
+}
+
+.header {
+    position: relative;
+    height: 105px;
+    padding-top: 25px;
+}
+
+.header .logo h1 {
+    width: 180px;
+    height: 60px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.search input {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+    width: 458px;
+    height: 36px;
+    outline: none;
+    border: 2px solid #b11919;
+}
+
+.search button {
+    position: absolute;
+    top: 25px;
+    left: 800px;
+    width: 80px;
+    height: 36px;
+    background-color: #b11919;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: 2px solid #b11919;
+}
+
+.search .hotwords {
+    position: absolute;
+    top: 68px;
+    left: 351px;
+}
+
+.search .hotwords li {
+    float: left;
+    padding: 0 12px;
+    font-size: 12px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 140px;
+    height: 36px;
+    border: 1px solid #dedede;
+    background-color: #f7f7f7;
+    font-size: 12px;
+    color: #616161;
+    text-align: center;
+    line-height: 36px;
+}
+
+.shopcar a::before {
+    content: "\e93a";
+    font-family: 'icomoon';
+    margin-right: 10px;
+    color: #b11919;
+}
+
+.shopcar a::after {
+    content: "\e920";
+    font-family: 'icomoon';
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.shopcar span {
+    position: absolute;
+    top: -5px;
+    left: 100px;
+    height: 16px;
+    padding: 0 5px;
+    line-height: 16px;
+    background-color: red;
+    border-radius: 7px 7px 7px 0;
+    color: #fff;
+}
+
+nav {
+    height: 45px;
+    border-bottom: 2px solid #b11a1a;
+}
+
+nav .dropdown {
+    float: left;
+    width: 209px;
+    height: 45px;
+    background-color: #b11a1a;
+}
+
+.nav .dropdown .dt {
+    color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.nav .dropdown:hover .dd {
+    display: block;
+}
+
+.nav .dropdown .dd {
+    display: none;
+    float: left;
+    position: absolute;
+    height: 467px;
+    width: 209px;
+    background-color: #c81822;
+    font-size: 14px;
+    z-index: 9999;
+}
+
+.nav .dropdown .dd li {
+    margin-left: 3px;
+    line-height: 31px;
+}
+
+.nav .dropdown .dd li::after {
+    float: right;
+    content: "\e920";
+    font-family: 'icomoon';
+    color: #fff;
+}
+
+.nav .dropdown .dd li a {
+    color: #f1f1f1;
+}
+
+.nav .dropdown .dd li:hover {
+    background-color: #fff;
+}
+
+.nav .dropdown .dd li:hover a {
+    color: #c81822;
+}
+
+.nav .dropdown .dd li:hover::after {
+    color: #c81822;
+}
+
+.nav .w .navitems {
+    float: left;
+    margin-left: 50px;
+    height: 45px;
+}
+
+.nav .w .navitems li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 46px;
+    font-size: 16px;
+}
+
+
+/*        footer                     */
+
+.footer {
+    margin-top: 10px;
+    height: 417px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.footer .mod_service {
+    height: 80px;
+    padding-left: 50px;
+}
+
+.footer .mod_service li {
+    width: 20%;
+    float: left;
+    vertical-align: middle;
+}
+
+.footer .mod_service li h5 {
+    display: block;
+    float: left;
+    margin-top: -5px;
+    background-color: pink;
+    background: url(../images/icons.png) no-repeat -252px -2px;
+    width: 50px;
+    height: 50px;
+}
+
+.footer .mod_service li:nth-child(2) h5 {
+    background: url(../images/icons.png) no-repeat -254px -54px;
+}
+
+.footer .mod_service li:nth-child(3) h5 {
+    background: url(../images/icons.png) no-repeat -256px -106px;
+}
+
+.footer .mod_service li:nth-child(4) h5 {
+    background: url(../images/icons.png) no-repeat -257px -157px;
+}
+
+.footer .mod_service li:nth-child(5) h5 {
+    background: url(../images/icons.png) no-repeat -255px -209px;
+}
+
+.footer .w .mod_help {
+    height: 190px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.footer .w .mod_help dl {
+    float: left;
+    width: 190px;
+}
+
+.footer .w .mod_help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer .w .mod_help .last {
+    width: 90px;
+}
+
+.footer .w .mod_help .last dd {
+    width: 65px;
+    height: 60px;
+    text-indent: -5px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.mod_copyright .links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.mod_copyright .copyright {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 20px;
+}
